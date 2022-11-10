@@ -1,7 +1,21 @@
-# Vue 3 + Vite
+# My Anime Tracker - Vue 3 + Vite + Api Jikan
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+### Projeto para estudos de Vue 3, onde foi feito apenas o front-end, utilizando uma API que nos trás uma lista de animes.
 
-## Recommended IDE Setup
+## Setup
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+### NodeJs na versão v18.12.1, Vue 3 na versão 3.2.41, Vite na versão 3.2.3 e Git.
+
+## Configuração
+
+### Clonar projeto: git clone https://github.com/gersonvinicius/my-anime-tracker.git
+
+## Iniciar aplicação
+
+### Para baixar pacotes: npm install
+
+### Para startar a aplicação: npm run dev
+
+## Notas
+
+### Para limpar a lista de animes adicionados, basta entrar na aplicação no arquivo App.vue, função onMounted e descomentar a linha localStorage.clear().
